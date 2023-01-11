@@ -64,7 +64,7 @@ function selectSandwich(sandwich) {
     nameInput.value = sandwich.name
 
     renderCart()
-    renderIngredientList()
+    ingredientList.render()
 }
 
 // We'll use this function to save the sandwich, either
@@ -122,6 +122,7 @@ async function deleteSandwich(sandwich) {
         selectSandwich(items[0])
     } else {
         renderCart()
+        //ingredientList.renderIngredientList()
     }
 }
 
@@ -154,10 +155,12 @@ function changeSelectedSandwichName(value) {
     selectedSandwich.name = value
     saveSelectedSandwich()
     renderCart()
+    //ingredientList.renderIngredientList()
 }
 
 function changeSelectedSandwichBread(value) {
     selectedSandwich.bread = value
     saveSelectedSandwich()
     renderCart()
+    //ingredientList.renderIngredientList()
 }
