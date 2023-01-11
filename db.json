@@ -2,7 +2,7 @@
   "cart": [
     {
       "id": 1,
-      "name": "Avery",
+      "name": "Finn",
       "bread": "Sourdough",
       "ingredients": [
         "Cheddar Cheese",
@@ -12,6 +12,19 @@
         "Tomatoes",
         "Ham",
         "Turkey"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "bimo",
+      "bread": "Sourdough",
+      "ingredients": [
+        "Cheddar Cheese",
+        "Mayo",
+        "Bacon",
+        "Lettuce",
+        "Tomatoes",
+        "Ham"
       ]
     }
   ],
